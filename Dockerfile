@@ -16,3 +16,5 @@ RUN npm run build
 RUN rm -r /usr/share/nginx/html/*
 
 RUN cp -a build/. /usr/share/nginx/html
+
+EXPOSE 80
